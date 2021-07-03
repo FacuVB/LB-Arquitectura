@@ -1,0 +1,38 @@
+/* Body */
+$bg-color:rgb(247,242,236);
+$font:"Nixie One", cursive;
+$color:black;
+/*=================//=================*/
+/* Header */
+$bg-gradient:linear-gradient(
+    90deg,
+    rgba(243, 240, 236, 1) 0%,
+    rgba(247, 238, 226, 1) 44%,
+    rgba(242, 185, 111, 1) 91%,
+    rgba(241, 185, 111, 1) 100%
+  );
+
+$width:15rem;
+/*=================//=================*/
+/*Section / Estudio */
+
+
+/* Section | Newsletter */
+
+$bg-image:url(/img/typewriter.png);
+$padding:2rem;
+
+/* Section | Contacto */
+
+$color-contacto:#fff;
+$bg-contacto:rgb(218, 160, 86);
+$b-contacto:rgba(247,238,226,1);
+$bg-contactoHover:rgba(241, 185,111,1);
+$bg-contactoFocus:rgb(117, 90, 55);
+
+$b-mapa:1px solid grey;
+/*=================//=================*/
+
+$bg-footer:black;
+$colorItemsFooter:antiquewhite;
+$margin:0;

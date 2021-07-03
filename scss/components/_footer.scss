@@ -1,0 +1,14 @@
+@import '../base/variables';
+@import '../base/mixin';
+.footerContainer{
+    background-color: $bg-footer;
+    margin-right: $margin;
+}
+
+.itemFooter{
+    color: $colorItemsFooter;
+}
+
+.logoFooter{
+    width: 5rem;
+}

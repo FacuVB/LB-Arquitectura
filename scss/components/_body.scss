@@ -1,0 +1,25 @@
+@import '../base/variables';
+
+body{
+    background-color: $bg-color;
+}
+@media  (max-width: 576px) { 
+  .logoFooter{
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  body .logoFooter {
+    display: none;
+  }
+  .img-fluid{
+    max-width: 80%;
+    height: 24rem;
+  }
+}  
+
+h1,h2,h3,h4,h5,h6, a{
+    font-family: $font;
+    color: $color;
+}
+

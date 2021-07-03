@@ -1,0 +1,33 @@
+@import '../base/variables';
+@import '../base/hover/options';
+@import '../base/hover/mixins';
+@import '../base/hover/hacks';
+@import "../base/hover/effects/border-transitions/underline-from-center";
+
+
+/* Header */
+
+.headerContainer{
+    background: $bg-gradient;
+}
+
+.logoHeader{
+    width: $width;
+}
+
+.btnNav{
+    color: black;
+    font-weight: 500 bold;
+}
+
+.nav-item .nav-link{
+    font-weight: bolder;
+  }
+
+/* Efecto Hover navbar*/
+
+@if $includeClasses {
+	.#{$nameSpace}-underline-from-center {
+		@include underline-from-center();
+	}
+}

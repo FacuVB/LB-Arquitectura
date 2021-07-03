@@ -1,0 +1,15 @@
+
+/* Section | Home (Newsletter) */
+
+@mixin newsletter ($font, $color, $paddingTop, $paddingBottom) {
+    font-family: $font;
+    color: $color;
+    padding-top:$paddingTop;
+    padding-bottom: $paddingBottom;
+}
+
+@mixin itemsNewsletter($bg, $height) {
+    background-color: $bg;
+    height: $height;
+}
+
