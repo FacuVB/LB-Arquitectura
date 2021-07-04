@@ -236,6 +236,19 @@ input::placeholder {
   }
 }
 
+/* Servicios | section*/
+.h4Servicios{
+  font-weight: bold;
+  font-size: medium;
+}
+.parrafoServicios{
+  width: 90%;
+}
+
+.bgSection{
+  background-color:darken($bg-color, 5%) ;
+}
+
 /* Contacto | Formulario - Mapa */
 
 .btn-contacto {

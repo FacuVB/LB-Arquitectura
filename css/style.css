@@ -114,12 +114,6 @@ hr {
   width: 90%;
 }
 
-/* Home / Galeria */
-div.row.galeria{
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
 /* Home | Newsletter */
 .newsletter {
   font-family: "Dosis";
@@ -136,7 +130,7 @@ div.row.galeria{
 }
 
 .imgJumbotron {
-  background-image: url(../img/typewriter.jpg);
+  background-image: url(/img/typewriter.png);
 }
 
 .form {
@@ -313,6 +307,20 @@ input::placeholder {
 /* Estudio | Avatar */
 .miAvatar img {
   border-radius: 50%;
+}
+
+/* Servicios | section*/
+.h4Servicios {
+  font-weight: bold;
+  font-size: medium;
+}
+
+.parrafoServicios {
+  width: 90%;
+}
+
+.bgSection {
+  background-color: #efe6da;
 }
 
 /* Contacto | Formulario - Mapa */
