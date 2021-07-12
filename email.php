@@ -23,5 +23,5 @@ if ($_POST['submit']) {
         echo 'Falló el envio';
     }
 }
-header('Location: index.html');
+header('location: index.html');
 ?>
