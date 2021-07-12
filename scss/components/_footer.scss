@@ -1,14 +1,23 @@
-@import '../base/variables';
-@import '../base/mixin';
-.footerContainer{
-    background-color: $bg-footer;
-    margin-right: $margin;
+@import "../base/variables";
+@import "../base/mixin";
+.footerContainer {
+  background-color: $bg-footer;
+  margin-right: $margin;
 }
 
-.itemFooter{
-    color: $colorItemsFooter;
+.itemFooter {
+  color: $colorItemsFooter;
 }
 
-.logoFooter{
-    width: 5rem;
+.logoFooter {
+  width: 5rem;
 }
+
+@media (max-width: 576px) {
+    .footerLogoContainer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+

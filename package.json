@@ -7,9 +7,17 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Facundo Bernal</h1> - 🔭 I’m currently working on [LB-Arquitectura & Diseño](git@github.com:FacuVB/LB-Arquitectura.git)",
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacuVB/LB-Arquitectura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FacuVB/LB-Arquitectura/issues"
+  },
+  "homepage": "https://github.com/FacuVB/LB-Arquitectura#readme"
 }

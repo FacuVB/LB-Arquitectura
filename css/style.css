@@ -388,4 +388,11 @@ input .btn .btn-404 {
   width: 5rem;
 }
 
+@media (max-width: 576px) {
+  .footerLogoContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
