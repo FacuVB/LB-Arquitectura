@@ -228,6 +228,12 @@ input::placeholder {
   letter-spacing: 9px;
 }
 
+@media (max-width: 576px) {
+  .infoArqDis{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 /* Estudio | Avatar */
 
 .miAvatar {
@@ -247,6 +253,15 @@ input::placeholder {
 
 .bgSection{
   background-color:darken($bg-color, 5%) ;
+}
+
+.imgServicios{
+  max-width: 100%;
+}
+
+.infoServicios{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 /* Contacto | Formulario - Mapa */
