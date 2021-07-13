@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/FacuVB/LB-Arquitectura/issues"
   },
-  "homepage": "https://github.com/FacuVB/LB-Arquitectura#readme"
+  "homepage": "https://github.com/FacuVB/LB-Arquitectura#readme",
+  "dependencies": {
+    "mdb-ui-kit": "^3.9.0"
+  }
 }
